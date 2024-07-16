@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="nav sm:flex h-[68px] custom-width sm:justify-between justify-end items-center fixed top-0 left-0 right-0 z-40 pointer-events-none"
+    class="nav sm:flex h-[68px] custom-width sm:justify-between justify-end items-center fixed top-0 left-0 right-0 z-40 pointer-events-none bg-[#16171d] w-[100vw] px-10 text-[#fff]"
     :class="[isInScrollPage && currentPage !== 1 ? 'hidden' : 'flex']"
   >
     <!-- pc端首页遮盖层 -->
@@ -12,16 +12,17 @@
     ></div>
 
     <!-- logo -->
-    <img
+    <!-- <img
       class="h-[30px] sm:h-[32px] z-20 sm:relative absolute sm:left-0 sm:translate-x-0 transition duration-500"
       :class="[
         { invert: isInvert || !isCollapse },
         !isCollapse ? 'left-4 translate-x-0' : 'left-1/2 -translate-x-1/2',
         useRoute().path !== '/coverage' || !isCollapse ? '' : 'hidden sm:block',
       ]"
-      src="/logo.webp"
-      alt="UGLOSS"
-    />
+      src="/logo.png"
+      alt="强国门窗"
+    /> -->
+    <Logo></Logo>
 
     <!-- PC端nav-item -->
     <div
@@ -205,19 +206,6 @@ const isInvert = computed(() => {
 const navList = [
   { name: "nav_1", page: 1 },
   {
-    name: "nav_2",
-    children: [
-      {
-        name: "nav_2_1",
-        page: 2,
-      },
-      {
-        name: "nav_2_2",
-        page: 3,
-      },
-    ],
-  },
-  {
     name: "nav_3",
     children: [
       {
@@ -229,45 +217,22 @@ const navList = [
         page: 5,
       },
     ],
-  },
-  {
-    name: "nav_4",
-    children: [
-      {
-        name: "nav_4_1",
-        page: 6,
-      },
-      {
-        name: "nav_4_2",
-        page: 7,
-      },
-    ],
-  },
+  }
 ];
 
 const contactList = [
-  {
-    name: "快手",
-    icon_img: "/nav-ks.png",
-    qr_img: "/qr/wx.jpg",
-    qr_text: "scan_ks",
-  },
+
   {
     name: "抖音",
     icon_img: "/nav-dy.png",
-    qr_img: "/qr/wx.jpg",
+    qr_img: "/qr/wx.png",
     qr_text: "scan_dy",
   },
-  {
-    name: "天猫",
-    icon_img: "/nav-tm.png",
-    qr_img: "/qr/wx.jpg",
-    qr_text: "scan_tm",
-  },
+
   {
     name: "微信",
     icon_img: "/nav-wx.png",
-    qr_img: "/qr/wx.jpg",
+    qr_img: "/qr/wx.png",
     qr_text: "scan_wx",
   },
 ];
@@ -329,4 +294,5 @@ function handleMobMenuClick(page) {
 .pre-expander:hover .expander .expander-content {
   visibility: visible;
 }
+
 </style>

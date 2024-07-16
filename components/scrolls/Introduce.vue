@@ -2,10 +2,7 @@
   <div
     class="animate-show custom-width font-normal text-sm sm:text-[24px] flex flex-col text-white translate-y-20 sm:translate-y-40"
   >
-    <SvgoLogo
-      :fontControlled="false"
-      class="sm:w-[200px] sm:h-[46px] w-[90px] h-[20px] delay-500 sm:mb-16 mb-8"
-    />
+    <Logo class="translate-y-[-100%] delay-300 sm:mb-20 mb-8"></Logo>
 
     <h2 class="delay-[600ms] sm:mb-20 mb-8">
       {{ $t("s2_1") }}
@@ -31,7 +28,7 @@
     <img
       class="img-bg"
       :src="makeImgHost('/bg2-20231124.jpg?imageMogr2/format/webp')"
-      alt="UGLOSS简介背景图片"
+      alt="强国门窗简介背景图片"
     />
   </picture>
 </template>

@@ -5,15 +5,11 @@
     <div class="flex items-center justify-center sm:mb-7 mb-6">
       <span
         class="font-semibold sm:text-lg text-sm sm:tracking-[3px] tracking-[2px]"
-        >OF&nbsp;COURSE</span
+        >OF&nbsp;COURSE  强国门窗</span
       >
-      <span
-        class="block rounded-full bg-white sm:w-1 sm:h-1 w-[2px] h-[2px] sm:mx-3 mx-2"
-      ></span>
-      <SvgoLogo
-        :fontControlled="false"
-        class="sm:h-[20px] h-[15px] text-white"
-      />
+
+      
+
     </div>
     <h1
       class="sm:text-[56px] text-[32px] sm:leading-[56px] leading-[32px] font-semibold flex space-x-6 items-center"

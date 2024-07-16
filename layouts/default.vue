@@ -8,7 +8,7 @@ const head = useLocaleHead({
   addSeoAttributes: true,
 });
 const title = computed(() =>
-  route.meta.title ? `UGLOSS 官方网站 - ${route.meta.title}` : "UGLOSS 官方网站"
+  route.meta.title ? `泰州市强国门窗企业官网 - ${route.meta.title}` : "泰州市强国门窗企业官网"
 );
 
 // meta配置

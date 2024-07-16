@@ -1,4 +1,14 @@
 export default defineNuxtConfig({
+  devtools: { enabled: true },
+  app:{
+
+      head: {
+        link: [
+
+          { rel: 'icon', type: 'image/x-icon', href: '/logo.png' },
+        ],
+    }
+  },
   modules: [
     "@nuxtjs/i18n",
     "@nuxtjs/tailwindcss",
@@ -12,7 +22,7 @@ export default defineNuxtConfig({
   },
   site: {
     // nuxt-simple-sitemap - 自动生成sitemap的配置
-    url: "http://official-nuxt3.jiabao.online",
+    url: "https://www.qiangguo.xyz",
   },
   i18n: {
     vueI18n: "./i18n.config.ts",
@@ -38,5 +48,5 @@ export default defineNuxtConfig({
       cookieKey: "i18n_redirected",
       redirectOn: "root", // recommended
     },
-  },
+  }
 });

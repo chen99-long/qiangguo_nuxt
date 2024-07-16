@@ -11,6 +11,7 @@
         perspective: 1000;
         transform-origin: center center;
       "
+
       class="touch-none"
     >
       <section
@@ -67,10 +68,8 @@ const innerHeight = useWindowHeight();
 const scrollCompoents = [
   Main,
   Introduce,
-  Technic,
   AProduct,
   BProduct,
-  Coverage,
   Footer,
 ];
 

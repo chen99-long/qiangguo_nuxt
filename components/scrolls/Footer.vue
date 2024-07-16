@@ -18,76 +18,9 @@
           grid-template-rows: auto auto;
         "
       >
-        <Popover
-          as="li"
-          class="delay-700 flex flex-col items-center bg-[#FAFAFA] justify-center"
-          style="grid-column: span 2"
-        >
-          <img src="/footer-ks.webp" alt="快手旗舰店" class="w-[72px] mb-10" />
-          <span class="text-sm font-semibold">快手旗舰店</span>
-          <template #content>
-            <div
-              class="flex flex-col items-center bg-black p-1 rounded relative bottom-[140px]"
-            >
-              <img
-                src="/qr/wx.jpg"
-                alt="快手旗舰店二维码"
-                class="w-[80px] mb-[6px] rounded-[3px]"
-              />
-              <span class="text-[10px] font-normal text-white"
-                >打开快手扫一扫</span
-              >
-            </div>
-          </template>
-        </Popover>
 
-        <Popover
-          as="li"
-          class="delay-700 flex flex-col items-center bg-[#FAFAFA] justify-center"
-          style="grid-column: span 2"
-        >
-          <img src="/footer-dy.webp" alt="抖音旗舰店" class="w-[72px] mb-10" />
-          <span class="text-sm font-semibold">抖音旗舰店</span>
 
-          <template #content>
-            <div
-              class="flex flex-col items-center bg-black p-1 rounded relative bottom-[140px]"
-            >
-              <img
-                src="/qr/wx.jpg"
-                alt="抖音旗舰店二维码"
-                class="w-[80px] mb-[6px] rounded-[3px]"
-              />
-              <span class="text-[10px] font-normal text-white"
-                >打开抖音扫一扫</span
-              >
-            </div>
-          </template>
-        </Popover>
 
-        <Popover
-          as="li"
-          class="delay-700 flex flex-col items-center bg-[#FAFAFA] justify-center"
-          style="grid-column: span 2"
-        >
-          <img src="/footer-tm.webp" alt="天猫旗舰店" class="w-[72px] mb-10" />
-          <span class="text-sm font-semibold">天猫旗舰店</span>
-
-          <template #content>
-            <div
-              class="flex flex-col items-center bg-black p-1 rounded relative bottom-[140px]"
-            >
-              <img
-                src="/qr/wx.jpg"
-                alt="天猫旗舰店二维码"
-                class="w-[80px] mb-[6px] rounded-[3px]"
-              />
-              <span class="text-[10px] font-normal text-white"
-                >打开淘宝扫一扫</span
-              >
-            </div>
-          </template>
-        </Popover>
 
         <Popover
           as="li"
@@ -96,22 +29,18 @@
         >
           <img
             src="/footer-wx.webp"
-            alt="UGLOSS公众号"
+            alt="官方微信公众号"
             class="w-[72px] mb-10"
           />
-          <span class="text-sm font-semibold mb-2">{{
-            $t("footer_icon_wx_title")
-          }}</span>
-          <span class="text-sm font-normal">{{
-            $t("footer_icon_wx_subtitle")
-          }}</span>
+          <span class="text-sm font-semibold mb-2">官方微信公众号</span>
+          <span class="text-sm font-normal">直接联系董事长</span>
 
           <template #content>
             <div
               class="flex flex-col items-center bg-black p-1 rounded relative bottom-[140px]"
             >
               <img
-                src="/qr/wx.jpg"
+                src="/qr/wx.png"
                 alt="微信公众号二维码"
                 class="w-[80px] mb-[6px] rounded-[3px]"
               />
@@ -128,7 +57,7 @@
         >
           <img
             src="/footer-dh.webp"
-            alt="服务热线 4000 688 666"
+            alt="服务热线 131-9695-6332"
             class="w-[72px] mb-10"
           />
           <span class="text-sm font-semibold mb-2">{{
@@ -164,7 +93,7 @@
 
           <template #content>
             <div class="bg-black w-[160px] p-2 rounded-md">
-              <img class="rounded-[3px]" src="/qr/wx.jpg" alt="快手二维码" />
+              <img class="rounded-[3px]" src="/qr/wx.png" alt="快手二维码" />
               <span class="block text-white text-center text-base mt-2"
                 >打开快手扫一扫</span
               >
@@ -173,12 +102,12 @@
         </Popover>
 
         <Popover as="li" type="dialog" class="flex flex-col items-center">
-          <img class="w-[44px] mb-4" src="/footer-dy.webp" alt="抖音旗舰店" />
-          <span class="text-[13px] font-semibold">抖音旗舰店</span>
+          <img class="w-[44px] mb-4" src="/footer-dy.webp" alt="抖音官方号" />
+          <span class="text-[13px] font-semibold">抖音官方号</span>
 
           <template #content>
             <div class="bg-black w-[160px] p-2 rounded-md">
-              <img class="rounded-[3px]" src="/qr/wx.jpg" alt="抖音二维码" />
+              <img class="rounded-[3px]" src="/qr/wx.png" alt="抖音二维码" />
               <span class="block text-white text-center text-base mt-2"
                 >打开抖音扫一扫</span
               >
@@ -192,7 +121,7 @@
 
           <template #content>
             <div class="bg-black w-[160px] p-2 rounded-md">
-              <img class="rounded-[3px]" src="/qr/wx.jpg" alt="天猫二维码" />
+              <img class="rounded-[3px]" src="/qr/wx.png" alt="天猫二维码" />
               <span class="block text-white text-center text-base mt-2"
                 >打开天猫扫一扫</span
               >
@@ -215,7 +144,7 @@
           type="dialog"
           class="delay-[900ms] grow flex flex-col items-center justify-center bg-[#F5F5F7] rounded-[17px] w-full"
         >
-          <img src="/footer-wx.webp" alt="UGLOSS公众号" class="w-[44px] mb-5" />
+          <img src="/footer-wx.webp" alt="官方微信号" class="w-[44px] mb-5" />
           <span class="text-sm font-semibold mb-2">{{
             $t("footer_icon_wx_title")
           }}</span>
@@ -227,11 +156,11 @@
             <div class="bg-black w-[160px] p-2 rounded-md">
               <img
                 class="rounded-[3px]"
-                src="/qr/wx.jpg"
+                src="/qr/wx.png"
                 alt="微信公众号二维码"
               />
               <span class="block text-white text-center text-base mt-2"
-                >获取变美最新资讯</span
+                >直接联系董事长</span
               >
             </div>
           </template>
@@ -242,7 +171,7 @@
         >
           <img
             src="/footer-dh.webp"
-            alt="服务热线 4000 688 666"
+            alt="服务热线 131-9695-6332"
             class="w-[44px] mb-5"
           />
           <span class="text-sm font-semibold mb-2">{{

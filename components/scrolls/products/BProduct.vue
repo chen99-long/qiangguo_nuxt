@@ -21,7 +21,7 @@
         <div class="bg-black w-[120px] p-2 rounded-md">
           <img
             class="sm:rounded-md rounded-[3px]"
-            src="/qr/wx.jpg"
+            src="/qr/wx.png"
             alt="二维码"
           />
           <span class="block text-white text-center text-sm mt-2">{{
@@ -35,16 +35,16 @@
   <picture>
     <source
       media="(max-width: 639px)"
-      :srcset="makeImgHost('/mobile/bg-5-20231127.jpg?imageMogr2/format/webp')"
+      :srcset="'/productImg/sunroom.png'"
     />
     <source
       media="(min-width: 640px)"
-      :srcset="makeImgHost('/bg5-20231212.jpg?imageMogr2/format/webp')"
+      :srcset="'/productImg/sunroom.png'"
     />
     <img
       class="img-bg"
-      :src="makeImgHost('/bg5-20231212.jpg?imageMogr2/format/webp')"
-      alt="光子美容面罩背景图片"
+      :src="'/productImg/sunroom.png'"
+      alt="阳光房"
     />
   </picture>
 </template>

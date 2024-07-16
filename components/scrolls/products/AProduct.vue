@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative animate-show custom-width text-[#FFE4C0] sm:text-[#F6EFE6] h-full flex justify-between items-start sm:pt-40 pt-14"
+    class="relative animate-show custom-width text-[#000] sm:text-[#000] h-full flex justify-between items-start sm:pt-40 pt-14"
   >
     <div class="delay-500">
       <h2 class="sm:text-[50px] text-[22px] font-semibold mb-1 sm:mb-3">
@@ -21,7 +21,7 @@
         <div class="bg-black w-[120px] p-2 rounded-md">
           <img
             class="sm:rounded-md rounded-[3px]"
-            src="/qr/wx.jpg"
+            src="/qr/wx.png"
             alt="二维码"
           />
           <span class="block text-white text-center text-sm mt-2">{{
@@ -35,16 +35,16 @@
   <picture>
     <source
       media="(max-width: 639px)"
-      :srcset="makeImgHost('/mobile/bg4-20240126.png?imageMogr2/format/webp')"
+      :srcset="'/productImg/window.jpg'"
     />
     <source
       media="(min-width: 640px)"
-      :srcset="makeImgHost('/bg4-20240126.jpg?imageMogr2/format/webp')"
+      :srcset="'/productImg/window.jpg'"
     />
     <img
       class="img-bg"
-      :src="makeImgHost('/bg4-20240126.jpg?imageMogr2/format/webp')"
-      alt="黑金牛奶光美容仪背景图片"
+      :src="'/productImg/window.jpg'"
+      alt="铝合金窗"
     />
   </picture>
 </template>

@@ -75,7 +75,7 @@
         <div class="rounded-md bg-black flex flex-col items-center p-1">
           <img
             class="w-[80px] h-[80px] rounded-[3px]"
-            src="/qr/wx.jpg"
+            src="/qr/wx.png"
             alt="了解更多二维码"
           />
           <span class="text-white text-[10px] mt-1">了解更多</span>
@@ -124,7 +124,7 @@
           <span class="text-xs font-normal">了解更多</span>
         </div>
         <div class="p-[2px] border rounded">
-          <img class="w-[64px]" src="/qr/wx.jpg" alt="了解更多二维码" />
+          <img class="w-[64px]" src="/qr/wx.png" alt="了解更多二维码" />
         </div>
       </div>
     </div>
