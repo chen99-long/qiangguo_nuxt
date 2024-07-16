@@ -19,11 +19,7 @@
       >
         <div class="h-full flex flex-col justify-center items-center">
           <slot name="content"></slot>
-          <!-- 关闭按钮 -->
-          <XCircleIcon
-            class="w-10 text-white mt-4"
-            @click.stop="isDialogOpened = false"
-          />
+          x
         </div>
       </div>
     </Teleport>
@@ -31,7 +27,6 @@
 </template>
 
 <script setup lang="ts">
-import { XCircleIcon } from "@heroicons/vue/24/outline";
 const props = defineProps({
   as: {
     type: String,
@@ -44,6 +39,7 @@ const props = defineProps({
 });
 
 const isDialogOpened = ref(false);
+
 function openDialog() {
   if (props.type === "dialog") {
     isDialogOpened.value = true;

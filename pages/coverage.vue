@@ -10,9 +10,9 @@
     <div
       class="z-10 absolute left-0 top-[14vh] sm:top-[250px] text-white flex flex-col items-center justify-center w-full"
     >
-      <IconLogo :fontControlled="false" class="sm:h-[60px] h-[30px]" />
+       <Logo></Logo>
       <span class="sm:tracking-[3px] sm:text-2xl text-sm sm:mt-5 mt-2"
-        >全球光电护肤专家</span
+        >靖江市高端门窗</span
       >
     </div>
 

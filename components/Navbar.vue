@@ -22,7 +22,10 @@
       src="/logo.png"
       alt="强国门窗"
     /> -->
-    <Logo></Logo>
+    <NuxtLink to="/">
+      <Logo></Logo>
+    </NuxtLink>
+    
 
     <!-- PC端nav-item -->
     <div
@@ -192,7 +195,7 @@
 
 <script setup>
 import IconMenuItem from "~/assets/icons/menu-item.svg";
-import Popover from "@/components/Popover.vue";
+import Popover from "~/components/Popover.vue";
 import { Bars3Icon as ChevronDownIcon } from "@heroicons/vue/24/outline";
 import { usePageNavigation } from "@/hooks/usePageNavigation";
 
