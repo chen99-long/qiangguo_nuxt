@@ -4,7 +4,7 @@
   >
     <div class="flex items-center justify-center sm:mb-7 mb-6">
       <h1
-        class=" delay-700 font-semibold sm:text-lg text-sm sm:tracking-[3px] tracking-[2px]"
+        class="delay-700 font-semibold sm:text-lg text-sm sm:tracking-[3px] tracking-[2px] whitespace-nowrap"
         >泰州市强国门窗制造有限公司</h1
       >
 
