@@ -1,5 +1,5 @@
 
-FROM node:22-bullseye-slim as base
+FROM node:18-bullseye-slim as base
 
 ARG PORT=3000
 
@@ -15,6 +15,7 @@ ENV NODE_OPTIONS=--max_old_space_size=4096
 
 # COPY --link package.json pnpm-lock.yaml ./
 COPY . .
+RUN npm config set registry http://registry.npm.taobao.org/
 RUN npm install -g pnpm
 # COPY --link . .
 RUN pnpm install
