@@ -1,22 +1,26 @@
 <template>
   <div
-    class="absolute top-1/2 -translate-y-[100%] left-1/2 -translate-x-1/2 text-white flex flex-col"
+    class="absolute top-1/2 -translate-y-[100%] left-1/2 -translate-x-1/2 text-white flex flex-col justify-center"
   >
     <div class="flex items-center justify-center sm:mb-7 mb-6">
-      <span
-        class="font-semibold sm:text-lg text-sm sm:tracking-[3px] tracking-[2px]"
-        >OF&nbsp;COURSE  强国门窗</span
+      <h1
+        class=" delay-700 font-semibold sm:text-lg text-sm sm:tracking-[3px] tracking-[2px]"
+        >泰州市强国门窗制造有限公司</h1
       >
 
       
 
     </div>
-    <h1
-      class="sm:text-[56px] text-[32px] sm:leading-[56px] leading-[32px] font-semibold flex space-x-6 items-center"
+   
+
+    <h2
+      class="animate-show custom-width sm:text-[26px] text-[26px] sm:leading-[56px] leading-[32px] font-semibold  text-center "
     >
-      <span class="shrink-0">{{ $t("s1_1") }}</span>
-      <span class="shrink-0">{{ $t("s1_2") }}</span>
-    </h1>
+    <div class="delay-[800ms]">门窗十五年沉淀</div>
+      <div class="delay-[900ms]">只为了能做出</div>
+      <div class="delay-[1000ms]">最好的靖江门窗</div>
+    </h2>
+    
   </div>
 
   <picture>

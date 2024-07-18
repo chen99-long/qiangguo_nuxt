@@ -22,7 +22,7 @@
       src="/logo.png"
       alt="强国门窗"
     /> -->
-    <NuxtLink to="/">
+    <NuxtLink class="m-auto  md:m-0 skew-x-[-10deg]" to="/">
       <Logo></Logo>
     </NuxtLink>
     
@@ -228,7 +228,7 @@ const contactList = [
   {
     name: "抖音",
     icon_img: "/nav-dy.png",
-    qr_img: "/qr/wx.png",
+    qr_img: "/qr/dy.png",
     qr_text: "scan_dy",
   },
 

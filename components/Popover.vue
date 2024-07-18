@@ -16,10 +16,11 @@
         v-if="type === 'dialog'"
         class="fixed left-0 top-0 w-full h-full bg-[rgba(0,0,0,0.5)] z-50"
         :class="isDialogOpened ? 'block' : 'hidden'"
+        @click="isDialogOpened = false"
       >
         <div class="h-full flex flex-col justify-center items-center">
           <slot name="content"></slot>
-          x
+          <span  class="absolute right-3 top-3 text-[20px] text-[#fff]">x</span>
         </div>
       </div>
     </Teleport>

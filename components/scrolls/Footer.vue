@@ -79,57 +79,9 @@
   <div
     class="md:hidden absolute custom-width py-14 animate-show h-full flex flex-col"
   >
-    <span
-      class="delay-500 text-base font-semibold flex items-center before:flex-grow after:flex-grow before:h-[1px] before:bg-black after:h-[1px] after:bg-black before:mr-[12px] after:ml-[12px]"
-    >
-      {{ $t("footer_title_1_mobile") }}</span
-    >
 
-    <div class="grow flex items-center delay-700">
-      <ul class="flex justify-between w-full">
-        <Popover as="li" type="dialog" class="flex flex-col items-center">
-          <img class="w-[44px] mb-4" src="/footer-ks.webp" alt="快手旗舰店" />
-          <span class="text-[13px] font-semibold">快手旗舰店</span>
 
-          <template #content>
-            <div class="bg-black w-[160px] p-2 rounded-md">
-              <img class="rounded-[3px]" src="/qr/wx.png" alt="快手二维码" />
-              <span class="block text-white text-center text-base mt-2"
-                >打开快手扫一扫</span
-              >
-            </div>
-          </template>
-        </Popover>
 
-        <Popover as="li" type="dialog" class="flex flex-col items-center">
-          <img class="w-[44px] mb-4" src="/footer-dy.webp" alt="抖音官方号" />
-          <span class="text-[13px] font-semibold">抖音官方号</span>
-
-          <template #content>
-            <div class="bg-black w-[160px] p-2 rounded-md">
-              <img class="rounded-[3px]" src="/qr/wx.png" alt="抖音二维码" />
-              <span class="block text-white text-center text-base mt-2"
-                >打开抖音扫一扫</span
-              >
-            </div>
-          </template>
-        </Popover>
-
-        <Popover as="li" type="dialog" class="flex flex-col items-center">
-          <img class="w-[44px] mb-4" src="/footer-tm.webp" alt="天猫旗舰店" />
-          <span class="text-[13px] font-semibold">天猫旗舰店</span>
-
-          <template #content>
-            <div class="bg-black w-[160px] p-2 rounded-md">
-              <img class="rounded-[3px]" src="/qr/wx.png" alt="天猫二维码" />
-              <span class="block text-white text-center text-base mt-2"
-                >打开天猫扫一扫</span
-              >
-            </div>
-          </template>
-        </Popover>
-      </ul>
-    </div>
 
     <span
       class="mb-5 delay-[800ms] text-base font-semibold flex items-center before:flex-grow after:flex-grow before:h-[1px] before:bg-black after:h-[1px] after:bg-black before:mr-[12px] after:ml-[12px]"

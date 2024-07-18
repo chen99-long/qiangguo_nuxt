@@ -155,6 +155,9 @@ const verifyData = reactive({
 definePageMeta({
   title: "真伪查验",
 });
+useSeoMeta({
+  description:"靖江市门窗制造正品保证，现场实地测量考察，给大家提供最真实的门窗产品信息，让您购买更放心。"
+})
 
 const hasResult = ref(false);
 

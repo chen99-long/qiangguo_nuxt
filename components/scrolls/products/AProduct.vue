@@ -1,19 +1,24 @@
 <template>
   <div
-    class="relative animate-show custom-width text-[#000] sm:text-[#000] h-full flex justify-between items-start sm:pt-40 pt-14"
+    class="relative animate-show custom-width text-[#1e3759] sm:text-[#06489e] h-full flex justify-between items-start sm:pt-40 pt-14"
   >
     <div class="delay-500">
       <h2 class="sm:text-[50px] text-[22px] font-semibold mb-1 sm:mb-3">
-        {{ $t("s4_1") }}
+        <!-- {{ $t("s4_1") }} -->
+        <div class="delay-150">* 隔热性能提升61%</div>
+        <div class="delay-150">* 日系3+3双效密封系统</div>
+        <div class="delay-150">* 3道气密性密封</div>
+        <div class="delay-150">* 3道水密性密封</div>
+
       </h2>
-      <h3 class="delay-150 sm:text-[24px] text-[14px] font-normal">
+      <h3 class="delay-150 sm:text-[24px] text-[18px] font-normal">
         {{ $t("s4_1_1") }}
       </h3>
     </div>
 
     <Popover class="delay-500" :type="isMobile ? 'dialog' : 'popover'">
       <button
-        class="rounded-full sm:border-[6px] border-[3px] sm:text-[33px] 2xl:text-[50px] text-[24px] border-[#FFE4C0] sm:border-[#F6EFE6] font-semibold sm:px-11 sm:py-2 px-4 py-1"
+        class="rounded-full sm:border-[6px] border-[3px] sm:text-[33px] 2xl:text-[50px] text-[24px] border-[#a57332]  font-semibold sm:px-11 sm:py-2 px-4 py-1"
       >
         {{ $t("s45_btn") }}
       </button>

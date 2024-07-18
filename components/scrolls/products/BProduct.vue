@@ -4,9 +4,12 @@
   >
     <div class="delay-500">
       <h2 class="sm:text-[50px] text-[22px] font-semibold mb-1 sm:mb-3">
-        {{ $t("s5_1") }}
+        <div>* 坚固</div>
+        <div>* 耐腐蚀</div>
+        <div>模块化设计</div>
+        <div>生产隐藏式排水系统</div>
       </h2>
-      <h3 class="delay-150 sm:text-[24px] text-[14px] font-normal">
+      <h3 class="delay-150 sm:text-[24px] text-[18px] font-normal">
         {{ $t("s5_1_1") }}
       </h3>
     </div>
