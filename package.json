@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "nuxt dev --host",
     "build": "nuxt build",
+    "build:docker":"docker build --platform linux/amd64 -t chenlong99/qiangguo_web . && docker push chenlong99/qiangguo_web:latest",
     "start": "nuxt start",
     "generate": "nuxt generate"
   },
