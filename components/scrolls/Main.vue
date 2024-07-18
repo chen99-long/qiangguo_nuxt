@@ -14,10 +14,10 @@
    
 
     <h2
-      class="animate-show custom-width sm:text-[26px] text-[26px] sm:leading-[56px] leading-[32px] font-semibold  text-center "
+      class="animate-show custom-width sm:text-[24x] text-[24px] sm:leading-[56px] leading-[32px] font-semibold  text-center "
     >
     <div class="delay-[800ms]">门窗十五年沉淀</div>
-      <div class="delay-[900ms]">只为了能做出</div>
+      <div class="delay-[900ms] my-2 lg:my-0">只为了能做出</div>
       <div class="delay-[1000ms]">最好的靖江门窗</div>
     </h2>
     
