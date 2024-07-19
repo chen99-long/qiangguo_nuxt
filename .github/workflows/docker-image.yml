@@ -19,7 +19,6 @@ jobs:
           node-version: '18'  # 指定你需要的 Node.js 版本
 
       - name: Build Docker image
-        run: docker login -u chenlong99 -p chen99999999
         run: npm run build:docker  
 
       - name: Deploy to server
