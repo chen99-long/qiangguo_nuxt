@@ -3,7 +3,7 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - main  # 你可以指定你希望触发 workflow 的分支
+      - master  # 你可以指定你希望触发 workflow 的分支
 
 jobs:
   build:
