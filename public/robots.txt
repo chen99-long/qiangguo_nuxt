@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /user/
+Disallow: /terms-of-use
+Disallow: /privacy-policy
+Disallow: /404
+Disallow: /es/
+Disallow: /pt/
+Disallow: /tl/
+Disallow: /ru/
+
+Sitemap: https://www.qiangguo.xyz/sitemap.xml
