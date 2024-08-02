@@ -30,9 +30,6 @@ importers:
       nuxt:
         specifier: ^3.8.1
         version: 3.12.3(@parcel/watcher@2.4.1)(@types/node@20.14.10)(ioredis@5.4.1)(magicast@0.3.4)(rollup@4.18.1)(terser@5.31.2)(vite@5.3.3(@types/node@20.14.10)(terser@5.31.2))
-      nuxt-simple-robots:
-        specifier: ^3.1.9
-        version: 3.1.10(@nuxt/devtools@1.3.9(rollup@4.18.1)(vite@5.3.3(@types/node@20.14.10)(terser@5.31.2)))(@unocss/webpack@0.61.3(rollup@4.18.1)(webpack@5.93.0))(@vue/compiler-core@3.4.31)(magicast@0.3.4)(nuxt@3.12.3(@parcel/watcher@2.4.1)(@types/node@20.14.10)(ioredis@5.4.1)(magicast@0.3.4)(rollup@4.18.1)(terser@5.31.2)(vite@5.3.3(@types/node@20.14.10)(terser@5.31.2)))(postcss@8.4.39)(rollup@4.18.1)(vite@5.3.3(@types/node@20.14.10)(terser@5.31.2))(vue@3.4.31)(webpack@5.93.0)
       nuxt-simple-sitemap:
         specifier: ^3.4.1
         version: 3.4.1(@nuxt/devtools@1.3.9(rollup@4.18.1)(vite@5.3.3(@types/node@20.14.10)(terser@5.31.2)))(@unocss/webpack@0.61.3(rollup@4.18.1)(webpack@5.93.0))(@vue/compiler-core@3.4.31)(magicast@0.3.4)(nuxt@3.12.3(@parcel/watcher@2.4.1)(@types/node@20.14.10)(ioredis@5.4.1)(magicast@0.3.4)(rollup@4.18.1)(terser@5.31.2)(vite@5.3.3(@types/node@20.14.10)(terser@5.31.2)))(postcss@8.4.39)(rollup@4.18.1)(vite@5.3.3(@types/node@20.14.10)(terser@5.31.2))(vue@3.4.31)(webpack@5.93.0)
@@ -2937,9 +2934,6 @@ packages:
     resolution: {integrity: sha512-6vRdiXTw9SajEQOUi6Ze/XaIXzy1q/sD5UqHQSv3yqTu7Pot5S7fEihNXV8LpcgLz+9HzjVt70r7jYe7R99c2w==, tarball: https://registry.npmmirror.com/nuxi/-/nuxi-3.12.0.tgz}
     engines: {node: ^16.10.0 || >=18.0.0}
     hasBin: true
-
-  nuxt-simple-robots@3.1.10:
-    resolution: {integrity: sha512-daayOrkYoonFGlmR1E2KLFf8bSHOKjWRXfofddQ+Qy7C2atS3EwBQ+6KFUoQknmG8DLzTvmQFch387Nz51CKgQ==, tarball: https://registry.npmmirror.com/nuxt-simple-robots/-/nuxt-simple-robots-3.1.10.tgz}
 
   nuxt-simple-sitemap@3.4.1:
     resolution: {integrity: sha512-1F7OeXQ1rnwWgHgHDeDejlslgyNMHRq1JWzFjRaE6O2QN3R6Rh5RcLzqfynQQ0HFtvv0eJ54E9+MCbvGYVFBuA==, tarball: https://registry.npmmirror.com/nuxt-simple-sitemap/-/nuxt-simple-sitemap-3.4.1.tgz}
@@ -7469,39 +7463,6 @@ snapshots:
   nuxi@3.12.0:
     optionalDependencies:
       fsevents: 2.3.3
-
-  nuxt-simple-robots@3.1.10(@nuxt/devtools@1.3.9(rollup@4.18.1)(vite@5.3.3(@types/node@20.14.10)(terser@5.31.2)))(@unocss/webpack@0.61.3(rollup@4.18.1)(webpack@5.93.0))(@vue/compiler-core@3.4.31)(magicast@0.3.4)(nuxt@3.12.3(@parcel/watcher@2.4.1)(@types/node@20.14.10)(ioredis@5.4.1)(magicast@0.3.4)(rollup@4.18.1)(terser@5.31.2)(vite@5.3.3(@types/node@20.14.10)(terser@5.31.2)))(postcss@8.4.39)(rollup@4.18.1)(vite@5.3.3(@types/node@20.14.10)(terser@5.31.2))(vue@3.4.31)(webpack@5.93.0):
-    dependencies:
-      '@nuxt/kit': 3.12.3(magicast@0.3.4)(rollup@4.18.1)
-      defu: 6.1.4
-      nuxt-site-config: 1.6.7(@nuxt/devtools@1.3.9(rollup@4.18.1)(vite@5.3.3(@types/node@20.14.10)(terser@5.31.2)))(@unocss/webpack@0.61.3(rollup@4.18.1)(webpack@5.93.0))(@vue/compiler-core@3.4.31)(magicast@0.3.4)(nuxt@3.12.3(@parcel/watcher@2.4.1)(@types/node@20.14.10)(ioredis@5.4.1)(magicast@0.3.4)(rollup@4.18.1)(terser@5.31.2)(vite@5.3.3(@types/node@20.14.10)(terser@5.31.2)))(postcss@8.4.39)(rollup@4.18.1)(vite@5.3.3(@types/node@20.14.10)(terser@5.31.2))(vue@3.4.31)(webpack@5.93.0)
-      nuxt-site-config-kit: 1.6.7(magicast@0.3.4)(rollup@4.18.1)(vue@3.4.31)
-      pathe: 1.1.2
-      ufo: 1.5.3
-    transitivePeerDependencies:
-      - '@nuxt/devtools'
-      - '@unocss/webpack'
-      - '@vue/compiler-core'
-      - '@vue/composition-api'
-      - async-validator
-      - axios
-      - change-case
-      - drauu
-      - fuse.js
-      - idb-keyval
-      - jwt-decode
-      - magicast
-      - nprogress
-      - nuxt
-      - postcss
-      - qrcode
-      - rollup
-      - sortablejs
-      - supports-color
-      - universal-cookie
-      - vite
-      - vue
-      - webpack
 
   nuxt-simple-sitemap@3.4.1(@nuxt/devtools@1.3.9(rollup@4.18.1)(vite@5.3.3(@types/node@20.14.10)(terser@5.31.2)))(@unocss/webpack@0.61.3(rollup@4.18.1)(webpack@5.93.0))(@vue/compiler-core@3.4.31)(magicast@0.3.4)(nuxt@3.12.3(@parcel/watcher@2.4.1)(@types/node@20.14.10)(ioredis@5.4.1)(magicast@0.3.4)(rollup@4.18.1)(terser@5.31.2)(vite@5.3.3(@types/node@20.14.10)(terser@5.31.2)))(postcss@8.4.39)(rollup@4.18.1)(vite@5.3.3(@types/node@20.14.10)(terser@5.31.2))(vue@3.4.31)(webpack@5.93.0):
     dependencies:

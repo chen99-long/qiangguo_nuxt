@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "nuxt dev --host",
     "build": "nuxt build",
-    "build:docker":"docker build --platform linux/amd64 -t chenlong99/qiangguo_web . && docker push chenlong99/qiangguo_web:latest",
+    "build:docker": "docker build --platform linux/amd64 -t chenlong99/qiangguo_web . && docker push chenlong99/qiangguo_web:latest",
     "start": "nuxt start",
     "generate": "nuxt generate"
   },
@@ -14,7 +14,6 @@
     "@nuxtjs/i18n": "^8.0.0-rc.5",
     "@nuxtjs/tailwindcss": "^6.9.4",
     "nuxt": "^3.8.1",
-    "nuxt-simple-robots": "^3.1.9",
     "nuxt-simple-sitemap": "^3.4.1",
     "nuxt-svgo": "^3.6.0"
   },
